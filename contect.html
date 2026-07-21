@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Peak Performance Sports</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>body{background-color: rgb(103, 146, 255);}</style>
+</head>
+<body>
+<header>
+<div class="logo">
+<h1>Peak Performance Sports</h1>
+</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="product.html">Products</a></li>
+<li><a href="Gallery.html">Gallery</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contect.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+<section class="contact-section">
+<h2>Order / Contact Form</h2>
+<form>
+<fieldset>
+<legend>Customer Information</legend>
+<label>Full Name</label>
+<input type="text"
+placeholder="Enter your full name"
+required
+minlength="3">
+<br>
+<label>Email Address</label>
+<input type="email"
+placeholder="Enter your email"
+required>
+<br>
+<label>Password</label>
+<input type="password"
+placeholder="Create password"
+required
+minlength="8">
+<br>
+<label>Phone Number</label>
+<input type="tel"
+placeholder="+25261xxxxxxx"
+pattern="[0-9+]{10,15}"
+required>
+<br>
+<label>Select Product</label>
+<select required>
+<option value="">Choose Product</option>
+<option>Running Shoes</option>
+<option>Football</option>
+<option>Gym Gloves</option>
+<option>Sports Bag</option>
+<option>Football Jersey</option>
+<option>Sports Watch</option>
+<option>Sports Cap</option>
+</select>
+<br><br>
+<label>Payment Method</label>
+<input type="radio" name="payment" required>
+Cash
+<input type="radio" name="payment">
+EVC Plus
+<input type="radio" name="payment">
+Bank
+<br><br>
+<label>Extra Services</label>
+<input type="checkbox">
+Gift Wrap
+<input type="checkbox">
+Express Delivery
+<input type="checkbox">
+SMS Notification
+<br><br>
+<label>Your Message</label>
+<textarea rows="6"
+placeholder="Write your message here..."
+required></textarea>
+<br><br>
+<input type="submit" value="Place Order" class="btn">
+</fieldset>
+</form>
+</section>
+<footer>
+<p>
+© 2026 Peak Performance Sports | All Rights Reserved.
+</p>
+</footer>
+</body>
+</html>
